@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<bean id="objetoSingleton" class="com.sopra.model.entities.DrogitaFina">
+		<property name="nombre" value="cocaina"></property>
+		<property name="tipo" value="mandukita de la dura"></property>
+	</bean>
+
+	<bean id="objetoPrototype" scope="prototype" class="com.sopra.model.entities.DrogitaFina">
+		<property name="nombre" value="hashDelMoro"></property>
+		<property name="tipo" value="blanda"></property>
+	</bean>
+	
+	<bean id="objetoRequest" scope="request" class="com.sopra.model.entities.DrogitaFina">
+		<property name="nombre" value="cafe y pincho"></property>
+		<property name="tipo" value="blanda"></property>
+	</bean>
+	
+	<bean id="obsession" scope="session" class="com.sopra.model.entities.DrogitaFina">
+		<property name="nombre" value="anfetitas"></property>
+		<property name="tipo" value="bien duro"></property>
+	</bean>
+	
+</beans>
