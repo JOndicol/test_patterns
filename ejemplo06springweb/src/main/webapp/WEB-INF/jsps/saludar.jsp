@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-Singleton: ${objSingleton.nombre} - ${objSingleton.tipo} - ${objSingleton}</br>
-Prototype: ${objPrototype.nombre} - ${objPrototype.tipo} - ${objPrototype}</br>
-Request: ${objRequest.nombre} - ${objRequest.tipo} - ${objRequest}</br>
-Session: ${objSession.nombre} - ${objSession.tipo} - ${objSession}</br>
+Singleton: ${objSingleton.nombre} - ${objSingleton.tipo} - ${objSingleton}
+Prototype: ${objPrototype.nombre} - ${objPrototype.tipo} - ${objPrototype}
+Request: ${objRequest.nombre} - ${objRequest.tipo} - ${objRequest}
+Session: ${objSession.nombre} - ${objSession.tipo} - ${objSession}
 </body>
 </html>
