@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: configServer
+  cloud:    config:      server:        git:          uri: C:\config-server-repo-EJEMPLOS-11y12
+server:  port: 8812
