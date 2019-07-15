@@ -1,0 +1,11 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8813/eureka/
+
+spring:
+  application:
+    name: ejemplo15MVCBALANCED
+
+server:
+  port: 8815

@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sopra.spring</groupId>
-	<artifactId>ejemplo10RestJpa</artifactId>
+	<artifactId>ejemplo15mvcRestTemplateLoadBalancer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ejemplo10RestJpa</name>
-	<description>Ejemplo RESTJPA</description>
+	<name>ejemplo15mvcRestTemplateLoadBalancer</name>
+	<description>Ejemplo Spring MVC RestTemplate y LoadBalancer Configurado</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -21,7 +21,11 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-rest</artifactId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
@@ -34,15 +38,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
